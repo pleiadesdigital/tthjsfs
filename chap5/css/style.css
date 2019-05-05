@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper {
+  width: 750px;
+  background-color: #FFFFFF;
+  margin: 0px auto;
+  border: 1px solid #EEEEEE;
+  border-radius: 6px;
+  padding: 1rem;
+  min-height: 500px;
+  margin-top: 1rem;
+}
