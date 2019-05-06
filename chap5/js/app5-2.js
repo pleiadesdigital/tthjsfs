@@ -1,4 +1,30 @@
+/* VIDEO 5.2.5 */
 // Using QuerySelector and QuerySelectorAll
+
+const myList = document.getElementsByTagName('li');
+
+for (let i = 0; i < myList.length; i += 1) {
+  myList[i].style.color = "slateblue";
+}
+
+const errorNotPurple = document.querySelectorAll('.no-purple');
+
+for (let i = 0; i < errorNotPurple.length; i += 1) {
+  errorNotPurple[i].style.color = 'purple';
+}
+
+const evens = document.querySelectorAll('li:nth-child(even)');
+for (let i = 0; i < evens.length; i++) {
+  evens[i].style.backgroundColor = "#CCCCCC";
+
+}
+
+
+
+/* errorNotPurple[0].style.color = 'tomato';
+errorNotPurple[1].style.color = 'lime';
+errorNotPurple[2].style.color = 'orange'; */
+
 
 /* const queryAttr = document.querySelector('[title=label]');
 console.log(queryAttr);
@@ -49,16 +75,16 @@ const myTextInput = document.getElementById('myTextInput');
 const myPurpleList = document.getElementsByTagName('li');
 const noPurple = document.getElementsByClassName('no-purple');
 
-for (let i = 0; i < myPurpleList.length; i++) {
+/* for (let i = 0; i < myPurpleList.length; i++) {
   const element = myPurpleList[i];
   myButton.addEventListener('click', () => {
     element.style.color = myTextInput.value;
   });
-}
+} */
 
-noPurple[0].style.color = 'orange';
+/* noPurple[0].style.color = 'orange';
 noPurple[1].style.color = 'lime';
-noPurple[2].style.color = '#B7950B';
+noPurple[2].style.color = '#B7950B'; */
 
 
 /* myButton.addEventListener('click', () => {
