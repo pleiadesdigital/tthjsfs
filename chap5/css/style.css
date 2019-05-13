@@ -6,12 +6,12 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper {
-  width: 750px;
+  width: 600px;
   background-color: #FFFFFF;
   margin: 0px auto;
   border: 1px solid #EEEEEE;
   border-radius: 6px;
-  padding: 1rem;
+  padding: 1rem 3rem;
   min-height: 500px;
   margin-top: 1rem;
 }
